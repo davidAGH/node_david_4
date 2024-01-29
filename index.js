@@ -30,15 +30,15 @@
 
 //task3////////////////////////////////////////////////////////////////////
 
-const fs = require('fs-extra');
-const path = require('path');
+// const fs = require('fs-extra');
+// const path = require('path');
 
-const directoryPath = path.join(__dirname, 'NodeJS');
+// const directoryPath = path.join(__dirname, 'NodeJS');
 
-fs.remove(directoryPath)
-    .then(() => {
-    console.log(`Directory deleted: ${directoryPath}`);
-})
-    .catch((err) => {
-    console.error(err);
-});
+// fs.remove(directoryPath)
+//     .then(() => {
+//     console.log(`Directory deleted: ${directoryPath}`);
+// })
+//     .catch((err) => {
+//     console.error(err);
+// });
